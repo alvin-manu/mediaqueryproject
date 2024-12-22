@@ -1,0 +1,83 @@
+/* Mobile Styles */
+@media (max-width: 767px) {
+    .main_container {
+        max-width: 767px;
+    }
+
+    .logo_container {
+        font-size: 18px;
+    }
+
+    .nav_items {
+        font-size: 16px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+    .nav_items{
+        display: none;
+    }
+
+    .img_container {
+        background: url("https://titanworld.com/cdn/shop/files/1_bc576f54-fa65-430e-9090-c3020e76f2ce.png?v=1702176547&width=600");
+        height: 600px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .shop_now_btn {
+        margin-bottom: 40px;
+        font-size: 18px;
+        padding: 10px 20px;
+
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+    .footer h3{
+        padding: 5px 0px;
+    }
+    .footer li {
+        font-size: 12px;
+        padding: 6px 0px;
+
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logo_container {
+        font-size: 18px;
+    }
+
+    .nav_items {
+        font-size: 18px;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1025px) {
+    .logo_container {
+        font-size: 20px;
+    }
+
+    .nav_items {
+        font-size: 20px;
+    }
+
+    .menu_toggle {
+        display: none;
+    }
+
+    .collections h2 {
+        font-size: 40px;
+    }
+
+    .collections_img img {
+        width: 300px;
+        height: 350px;
+    }
+}
